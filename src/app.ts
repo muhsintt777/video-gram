@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import { userRouter } from "user/user-route";
 
 const app = express();
 
@@ -12,5 +13,7 @@ app.use(express.static("public"));
 app.get("/", (_req, res) => {
   res.send("Hello World!");
 });
+
+app.use("/user", userRouter);
 
 export { app };
