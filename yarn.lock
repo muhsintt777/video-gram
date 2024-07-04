@@ -795,6 +795,11 @@ mongodb@6.6.2:
     bson "^6.7.0"
     mongodb-connection-string-url "^3.0.0"
 
+mongoose-aggregate-paginate-v2@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mongoose-aggregate-paginate-v2/-/mongoose-aggregate-paginate-v2-1.1.0.tgz#ee71fa5d12648a8aad2520906c22e33e6bf3612b"
+  integrity sha512-4sGXBUfGjmG4CEhgMQh94uw/BVKprtR+/I/C4jRv6xyZ15hGppPD1C8zgPHdDEwjKMLdBlBZJKJ8Fg/4s8BvTA==
+
 mongoose@*, mongoose@^8.4.3:
   version "8.4.3"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.4.3.tgz#f16ea170eeff60a8c8357bed9968e914a4156d1a"
