@@ -4,13 +4,13 @@ const REFRESH_TOKEN_EXPIRY = process.env.REFRESH_TOKEN_EXPIRY as string;
 const ACCESSTOKENKEY = process.env.ACCESS_TOKEN_KEY as string;
 const REFRESHTOKENKEY = process.env.REFRESH_TOKEN_KEY as string;
 
-interface AccessTokenPayloadType {
+type AccessTokenPayloadType = {
   id: number;
   email: string;
-}
-interface RefreshTokenTokenPayloadType {
+};
+type RefreshTokenTokenPayloadType = {
   id: number;
-}
+};
 
 export class Token {
   static createAccessToken(payload: AccessTokenPayloadType) {
